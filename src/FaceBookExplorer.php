@@ -1,7 +1,7 @@
 <?php 
 
 App::uses('Component', 'Controller');
-App::import('Vendor', 'Facebook', array('file' => 'facebook-php-sdk-v4-4.0/autoload.php'));
+App::import('Vendor', 'Facebook', array('file' => 'facebook-php-sdk-v4-4.0/autoload.php')); //Load FB SDK
 use Facebook\FacebookSession;
 use Facebook\FacebookRequest;
 use Facebook\GraphUser;
